@@ -86,7 +86,11 @@ class ColdFusionAutoComplete(sublime_plugin.EventListener):
         )
 
         for score, completions in sorted(COMPLETIONS,key=itemgetter(0),reverse=True):
-            if score: return completions(view, prefix, pos)
+            if score:
+                try:
+                    return completions(view, prefix, pos)
+                except Exception:
+                    return []
 
     def on_modified(self, view):
         if not view.settings().get("auto_complete"):
