@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cfif $1>
+	$0
+</cfif>]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfif - normal</description>
+</snippet>
+

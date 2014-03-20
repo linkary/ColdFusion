@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<cfabort>]]></content>
+	<tabTrigger>ab</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfabort</description>
+</snippet>

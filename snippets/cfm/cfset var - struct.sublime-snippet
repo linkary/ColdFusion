@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<cfset var stc${1:variable_name} = structNew()>
+]]></content>
+	<tabTrigger>varstc</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>var - struct</description>
+</snippet>
+

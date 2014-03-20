@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[if (structKeyExists(request.attributes, "${1:key_name}")){>
+	$2
+}]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.cfscript - string - meta</scope>
+	<description>structKeyExists-attributes</description>
+</snippet>
+

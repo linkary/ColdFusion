@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<cfcase value="${1:value}">
+	${2}
+</cfcase>${0}]]></content>
+	<tabTrigger>case</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfcase</description>
+</snippet>
+

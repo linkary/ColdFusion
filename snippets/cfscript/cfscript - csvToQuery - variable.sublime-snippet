@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[${1:oCSV	= new shadomx.util.misc.csv.CSV()
+}qData 	= oCSV.CSVToQuery(csv=${10:variable_name})
+]]></content>
+	<tabTrigger>csvToQuery</tabTrigger>
+	<scope>source.cfscript - string - meta</scope>
+	<description>variable</description>
+</snippet>
+

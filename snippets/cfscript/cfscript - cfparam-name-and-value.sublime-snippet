@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[param name="$1" default="$2";$0]]></content>
+	<tabTrigger>param</tabTrigger>
+	<scope>source.cfscript - string - meta</scope>
+	<description>name and default</description>
+</snippet>
+

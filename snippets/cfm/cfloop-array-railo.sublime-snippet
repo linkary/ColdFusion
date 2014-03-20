@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cfloop array="#${1:aReturn}#" index="${2:i}">
+	$0
+</cfloop>]]></content>
+	<tabTrigger>loop</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfloop (array direct)</description>
+</snippet>
+

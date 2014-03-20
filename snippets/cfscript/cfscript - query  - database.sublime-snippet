@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[query name="${1:qReturn}" datasource="${2:#request.siteContext.dsn#}"{
+	ec$0
+}
+]]></content>
+	<tabTrigger>qod</tabTrigger>
+	<scope>source.cfscript - string - meta</scope>
+	<description>s - query (database)</description>
+</snippet>
+
